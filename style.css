@@ -75,12 +75,6 @@ img:hover{
     }
 }
 
-@media (max-width: 950px) and (min-width: 450px) {
-    .box {
-        text-align: center;
-        height: 180px;
-    }
-}
 
 .cyan {
     border-top: 3px solid var(--cyan);
@@ -125,4 +119,20 @@ h2 {
         width: 30%;
     }
     
+}
+
+#insta, #linkedin{
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 10px;
+}
+.fadein img{
+    opacity:0.5;
+    transition: 1s ease;
+}
+    
+.fadein img:hover{
+    opacity:1;
+    transition: 1s ease;
 }
